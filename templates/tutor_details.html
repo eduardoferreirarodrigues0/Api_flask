@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+
+<title>Detalhes do Tutor</title>
+
+<div class="title"><h1> Detalhes </h1></div>
+    <p>ID: {{ tutor.id }}</p>
+    <p>Name: {{ tutor.name_tutor }}</p>
+    
+
+    <div class="title"><h1>Pets</h1></div>
+    <ul>
+        {% for pet in tutor.pets %}
+        <li>Nome:{{ pet.name_pet }}</li>
+        {% endfor %}
+
+    </ul>
+
+    <a class="voltar" href="{{ url_for('index') }}">Voltar</a>
+
+
+{% endblock %}

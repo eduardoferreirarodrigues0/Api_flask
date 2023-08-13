@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+
+<div class="title"><h1> Detalhes do Pet </h1></div>
+    <p>Nome: {{ pet.name_pet }}</p>
+    <p>Tutor: {{ pet.tutor.name_tutor }}</p>
+    
+    <a class="voltar" href="{{ url_for('index') }}">Voltar</a>
+
+{% endblock %}

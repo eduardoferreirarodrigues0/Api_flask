@@ -1,0 +1,118 @@
+/* Fonte */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,600&display=swap");
+
+/* Forms */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #e2e1e0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+    background: #fff;
+    border-radius: 2px;
+    display: inline-block;
+    min-height: 300px;
+    height: auto;
+    position: relative;
+    margin: 3rem 1rem 0 1rem;
+    width: 700px;
+    padding: 2rem;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  }
+
+.criar {
+    text-decoration: none;
+    color: #039d79;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.voltar {
+    text-decoration: none;
+    color: #039d79;
+    font-size: 1.2rem;
+}
+
+ul {
+    list-style: none;
+    margin-top: 1rem;
+
+}
+
+form {
+    margin-top: 2rem;
+    display: block;
+    position: relative;
+}
+
+form input {
+    display: block;
+    padding: 16px;
+    width: 100%;
+    border: 2px solid #039d79;
+    border-radius: 0 0 1rem 1rem;
+}
+form label {
+    display: block;
+    padding: 8px 16px 4px 16px;
+    width: 100%;
+    border: 2px solid #039d79;
+    background: #039d79;
+    text-align: left;
+    color: #fff;
+    border-radius: 1rem 1rem 0 0;
+    margin-top: 1rem;
+}
+
+form input[type="submit"] {
+    background: #08bb53;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 20px 16px;
+    border-radius: 1rem;
+}
+
+button {
+    background: #08bb53;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 10px 16px;
+    border-radius: 2rem;
+    border: none;
+    margin-top: 1rem;
+}
+
+select {
+    display: block;
+    padding: 16px;
+    width: 100%;
+    border: 2px solid #039d79;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.footer{
+    margin-top: 3rem;
+    display: block;
+    position: relative;
+    text-align: center;
+}
